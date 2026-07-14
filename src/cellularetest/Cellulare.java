@@ -22,8 +22,8 @@ public class Cellulare {
 
     public void Chiama(String telefono, float minuti) {
         float r = minuti * tariffa;
-        if (CreditoDisponibile == 0 && tariffa !=0) {
-            System.out.println("Il Credito disponibile e' 0, la chiamata non potra essere effettuata");
+        if (CreditoDisponibile == 0 || tariffa ==0) {
+            System.out.println("Il Credito disponibile e' 0 oppure la tarriffa e' 0, la chiamata non potra essere effettuata");
         } else if (CreditoDisponibile > r) {
             System.out.println("La chiamata puo essere effettuata");
             CreditoDisponibile -= r;
