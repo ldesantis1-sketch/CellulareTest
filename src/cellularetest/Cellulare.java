@@ -40,7 +40,7 @@ public class Cellulare {
         System.out.println("Il credito Disponibile e' " + CreditoDisponibile);
     }
     public void ChiamateEffetuate() {
-        System.out.println("Il credito Disponibile e' " + chiamateEffettuate);
+        System.out.println("Il numero di chiamate effettuate e' " + chiamateEffettuate);
     }
     public void AzzeraChiamate() {
         chiamateEffettuate=0;
