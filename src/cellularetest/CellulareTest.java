@@ -32,7 +32,7 @@ public class CellulareTest {
                     break;
                 case 3:
                     System.out.println("Inserisci il numero da chiamare");
-                    int numero = s.nextInt();
+                    String numero = s.next();
                     System.out.println("Inserisci quanti minuti durerera la chiamata");
                     float minuti = s.nextInt();
                     c1.Chiama(numero, minuti);

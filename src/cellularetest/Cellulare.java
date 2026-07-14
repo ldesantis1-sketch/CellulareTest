@@ -20,7 +20,7 @@ public class Cellulare {
         tariffa = t;
     }
 
-    public void Chiama(int telefono, float minuti) {
+    public void Chiama(String telefono, float minuti) {
         float r = minuti * tariffa;
         if (CreditoDisponibile == 0 && tariffa !=0) {
             System.out.println("Il Credito disponibile e' 0, la chiamata non potra essere effettuata");
